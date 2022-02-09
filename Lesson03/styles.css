@@ -186,3 +186,22 @@
   line-height: 19px;
   color: #828282;
 }
+.star {
+  display: inline-block;
+  background-image: url(img/Star.png);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+.Star1,
+.Star2,
+.Star3,
+.Star4 {
+  margin-top: 4px;
+}
+.Star1 .star:nth-child(n + 5),
+.Star2 .star:nth-child(n + 4),
+.Star3 .star:nth-child(n + 5),
+.Star4 .star:nth-child(n + 5) {
+  background-image: url(img/StarWhite.png);
+}
