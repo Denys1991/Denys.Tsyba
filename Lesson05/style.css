@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto/Roboto-Bold.ttf) format("truetype");
+}
+.text {
+  font-family: Roboto;
+  font-size: x-large;
+}
+.vector {
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+}
+.vector1 {
+  fill: brown;
+}
+.vector2 {
+  fill: chartreuse;
+  height: 50px;
+  width: 50px;
+}
