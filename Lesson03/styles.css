@@ -1,0 +1,207 @@
+* {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+}
+.nav {
+  border-bottom: 1px solid #828282;
+  padding-bottom: 30px;
+  padding-top: 23px;
+}
+.ulnav {
+  list-style: none;
+
+  text-align: center;
+}
+.li {
+  display: inline;
+  margin-left: 41px;
+}
+.link {
+  text-decoration: none;
+  color: #828282;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-shadow: 1px 2px 3px #828282;
+}
+.link_active {
+  text-decoration: none;
+  color: #070707;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-shadow: 1px 2px 3px #070707;
+}
+.link:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+.link_active:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+.namefoto {
+  margin-left: 17%;
+  margin-right: 17%;
+  padding-bottom: 100px;
+}
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 64px;
+}
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f6f6f6;
+}
+.abouth {
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  background-color: #f6f6f6;
+}
+.aboutp {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: #f6f6f6;
+}
+.skills {
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+.skillsh {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.skillsp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.iconsul {
+  text-align: center;
+}
+.iconsli {
+  display: inline-block;
+  margin-right: 170px;
+}
+.iconsimg {
+  margin-bottom: 23px;
+}
+.iconsp {
+  margin-bottom: 60px;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+.portfolio {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f6f6f6;
+}
+.portfolioh {
+  text-align: center;
+  margin-bottom: 70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  background-color: #f6f6f6;
+}
+.portfolioul {
+  background-color: #f6f6f6;
+}
+.portfolioli {
+  list-style: none;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+.portfoliop {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  background-color: #f6f6f6;
+}
+.contacts {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contactsh {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+.contactsp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 80px;
+}
+.contactsbut {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #070707;
+  border-radius: 80px;
+  padding: 8px 8px;
+  letter-spacing: 0.1em;
+  margin-bottom: 45px;
+}
+.contactsli {
+  display: inline;
+  margin-right: 60px;
+  margin-bottom: 44px;
+}
+.contactsp2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
+.star {
+  display: inline-block;
+  background-image: url(img/Star.png);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+.Star1,
+.Star2,
+.Star3,
+.Star4 {
+  margin-top: 4px;
+}
+.Star1 .star:nth-child(n + 5),
+.Star2 .star:nth-child(n + 4),
+.Star3 .star:nth-child(n + 5),
+.Star4 .star:nth-child(n + 5) {
+  background-image: url(img/StarWhite.png);
+}
