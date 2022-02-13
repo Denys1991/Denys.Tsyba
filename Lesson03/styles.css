@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(font/Gilroy-Regular.ttf) format("truetype");
+}
+
 * {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Gilroy, sans-serif;
   background-color: #ffffff;
 }
 .nav {
