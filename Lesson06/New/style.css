@@ -1,0 +1,111 @@
+* {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+}
+.one {
+  width: 832px;
+  height: 547px;
+  left: 0px;
+  top: 0px;
+  background: #2b81ac;
+  padding: 1px;
+}
+.two {
+  width: 799px;
+  height: 520px;
+  left: 16px;
+  top: 14px;
+  background: #3399cc;
+  margin: 14px;
+  padding: 1px;
+}
+.three {
+  width: 539px;
+  height: 331px;
+  left: 146px;
+  top: 108px;
+  margin: 95px 130px;
+  box-sizing: border-box;
+  padding: 0;
+}
+.town,
+.town2,
+.town3 {
+  height: 83px;
+  outline: 3px solid #ffffff;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.table,
+.table2,
+.list {
+  display: flex;
+  list-style-type: none;
+}
+.table {
+  flex-direction: column;
+  height: 331px;
+}
+.list {
+  text-decoration: none;
+}
+.town {
+  width: 25%;
+}
+.town2 {
+  width: 50%;
+}
+.town3 {
+  width: 100%;
+}
+.table2 {
+  margin: 0;
+  width: 539px;
+}
+p {
+  margin-block-end: 0;
+  margin-block-start: 16px;
+}
+.townlis {
+  background-color: #3399cc;
+}
+.townpa {
+  background-color: #33cccc;
+}
+.townbe {
+  background-color: #996699;
+}
+.townve {
+  background-color: #c24747;
+}
+.townte {
+  background-color: #e2674a;
+}
+.townky {
+  background-color: #ffcc66;
+}
+.townam {
+  background-color: #99cc99;
+}
+.townto {
+  background-color: #669999;
+}
+.townsa {
+  background-color: #cc6699;
+}
+.townsy {
+  background-color: #339966;
+}
+.town3 {
+  background-color: #666699;
+}
+.town:hover,
+.town2:hover,
+.town3:hover {
+  opacity: 0.8;
+}

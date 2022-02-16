@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(font/Gilroy-Regular.ttf) format("truetype");
+}
+* {
+  font-family: Gilroy;
+  background-color: #c9c9c9;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.header_word {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 23px;
+}
+.header_image {
+  margin-top: 14px;
+  height: 49px;
+}
+main {
+  padding: 0, 24px, 0, 44px;
+  font-size: 36px;
+  line-height: 48px;
+}
+.underfield {
+  list-style-type: none;
+}
