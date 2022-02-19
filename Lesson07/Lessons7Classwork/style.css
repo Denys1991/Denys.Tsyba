@@ -1,0 +1,81 @@
+body {
+  width: 95%;
+  padding: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.header__word {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.header__word--text {
+  margin-left: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.main__text--words {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.main__content {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main__content--anime {
+  position: relative;
+  width: 440px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main__content--img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  margin: 0;
+  padding: 0;
+}
+.main__content--img-front,
+.main__content--img-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.main__content--img:hover {
+  transform: rotateX(180deg);
+}
+.main__content--img-back {
+  transform: rotateX(180deg);
+}
+.insta {
+  height: 100%;
+  width: 100%;
+  background-color: #e6e6e6;
+  border-radius: 2.4%;
+  color: black;
+}
