@@ -1,19 +1,32 @@
 * {
   font-family: Roboto, sans-serif;
 }
+body {
+  margin: 0;
+  width: 100%;
+}
 header {
   display: flex;
   justify-content: space-between;
   padding: 15px 40px 0 40px;
   position: fixed;
-  height: 700px;
+  width: 95%;
+
+  background-color: white;
+  z-index: 2;
 }
 .header_word {
   display: flex;
+  justify-content: space-between;
   margin-top: 15px;
 }
+.header_word_eng {
+  width: 41px;
+  height: 23px;
+}
+
 .header_image {
-  margin-left: 1000px;
+  height: 49px;
 }
 span {
   margin-left: 40px;
@@ -25,6 +38,9 @@ main {
 }
 .sidebar_list {
   padding-inline-start: 0;
+}
+.sidebar {
+  width: 600px;
 }
 h1,
 h2 {
@@ -54,6 +70,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
+  width: 100%;
 }
 .sidebar_text {
   border-bottom: 1px solid #bfbfbf;
@@ -61,8 +78,38 @@ h2 {
 h1 {
   align-content: space-around;
 }
+.list_content {
+  list-style-type: none;
+}
 .sidebar_list {
   position: sticky;
   top: 60px;
   align-content: unset;
+}
+.field {
+  position: relative;
+}
+.list_title1 {
+  position: sticky;
+  top: 59px;
+  background-color: white;
+  padding: 2px;
+}
+.list_title2 {
+  position: sticky;
+  top: 59px;
+  background-color: white;
+  padding: 2px;
+}
+.list_title3 {
+  position: sticky;
+  top: 59px;
+  background-color: white;
+  padding: 2px;
+}
+.list_title4 {
+  position: sticky;
+  top: 59px;
+  background-color: white;
+  padding: 2px;
 }
