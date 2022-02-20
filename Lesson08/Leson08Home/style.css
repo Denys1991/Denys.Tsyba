@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+.main {
+  background-color: #f2f2f2;
+  width: 100%;
+  position: relative;
+  padding: 50px;
+}
+.main__content {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.formone__title {
+  font-family: Inter;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1c1c1c;
+}
+.formone__field--firstandlast {
+  display: flex;
+  justify-content: space-between;
+}
+.name-input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #545454;
+}
+.input-shot {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+}
+.input-long {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 38px;
+  width: 500px;
+}
+.formone__field-mail--text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #969696;
+}
+.formone__field--checkbox {
+  display: flex;
+  justify-content: flex-start;
+}
+.formone__field-checkbox--female {
+  margin-left: 20px;
+}
+.formone__field-checkbox--label {
+  cursor: pointer;
+}
+.formone__field--countryandcity {
+  display: flex;
+  justify-content: space-between;
+}
+.formone__field-other {
+  margin-top: 20px;
+  background: #007bff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.formone__footer {
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.header__img--input {
+  background: #ffffff;
+  border-radius: 6px;
+}
+.header__foto--input {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-image: url(img/Photo\ Camera.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 138px;
+  height: 30px;
+}
+.header__trash--input {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  background-image: url(img/Trash.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main__content--form1 {
+  display: flex;
+  flex-direction: column;
+}
+.name-input__marg {
+  margin-left: 10px;
+}
+.formone__last--input {
+  background: #007bff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 150px;
+  height: 38px;
+  margin-top: 20px;
+}
