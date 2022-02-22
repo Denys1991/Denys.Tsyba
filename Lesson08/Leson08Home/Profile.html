@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleProfile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,75 +14,75 @@
 </head>
 <body>
     <main class="main">
-        <div class="main__content">
+        <form class="main__content">
             <div class="main__content--form1 formone">
                 <h1 class="formone__title">
                     Profile
                 </h1>
-                <div class="main__content--header header">
+                <div class="formone__header">
                     <div class="header__img">
                         <input class="header__img--input" type="image" src="img/📷 Image.png" alt="Foto">
                     </div>
                     <div class="header__foto">
-                        <input class="header__foto--input" type="text">
-                        <p class="formone__field-mail--text">
+                        <label class="header__foto--label">
+                            <div class="header__foto--field"></div>
+                            <input class="header__foto--input" type="file">
+                        </label>
+                        <p class="header__foto--text">
                             Up to 1 MB (300x300 px)
                         </p>
                     </div>
                     <div class="header__trash">
-                        <input class="header__trash--input" type="text">
+                        <button class="header__trash--button"></button>
                     </div>
                 </div>
-                <div class="formone__field--firstandlast">
+                <div class="formone__field--nameandemail">
                     <div >
                         <p class="name-input">
                             Name
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                     <div class="name-input__marg">
                         <p class="name-input">
                             E-mail
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                 </div>
-                <div class="formone__field--firstandlast">
+                <div class="formone__field--countryandcity">
                     <div>
                         <p class="name-input">
                             Country
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                     <div class="name-input__marg">
                         <p class="name-input">
                             City
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                 </div>
-                <div class="formone__field--firstandlast">
+                <div class="formone__field--zipandphone">
                     <div>
                         <p class="name-input">
                             Zip Code
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                     <div class="name-input__marg">
                         <p class="name-input">
                             Phone Number
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                 </div>
                 <div class="formone__last">
-                    <input class="formone__last--input" type="text" name="" id="">
+                    <input class="formone__last--button" type="submit">
                 </div>
             </div>
-        </div>
-
-
-
+        </form>
     </main>
 </body>
 </html>

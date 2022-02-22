@@ -14,65 +14,67 @@
 </head>
 <body>
     <main class="main">
-        <div class="main__content">
+        <form class="main__content">
             <div class="main__content--form1 formone">
                 <h1 class="formone__title"> 
                     Create an Account
                 </h1>
                 <div class="formone__field--firstandlast">
                     <div class="formone__field-first">
-                        <p class="formone__field-first--name name-input">
+                        <p class="name-input">
                             First Name
                         </p>
-                        <input class="formone__field-first--input input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                     <div class="formone__field-last">
-                        <p class="formone__field-first--name name-input">
+                        <p class="name-input">
                             Last Name
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                 </div>
                 <div class="formone__field-mail">
-                    <p class="formone__field-first--name name-input">
+                    <p class="name-input">
                         E-mail
                     </p>
-                    <input class="input-long" type="text">
+                    <input class="input-long" type="text" required>
                     <p class="formone__field-mail--text">
                         We'll never share your email with anyone else.
                     </p>
                 </div>
                 <div class="formone__field--checkbox">
                     <div class="formone__field-checkbox--male">
-                        <label>
-                            <input type="radio" name="floor" checked/>
-                            <span class="name-input" >Male</span>
+                        <label class="checkbox">
+                            <input class="radio-input" type="radio" name="floor" checked/>
+                            <div class="radio-button"></div>
+                            <span class="name-input radio-name">Male</span>
                         </label>
                         
                     </div>
                     <div class="formone__field-checkbox--female">
-                        <label>
-                            <input type="radio" name="floor" />
-                            <span class="name-input">Female</span>
+                        <label class="checkbox">                            
+                            <input class="radio-input" type="radio" name="floor" />
+                            <div class="radio-button"></div>
+                            <span class="name-input radio-name">Female</span>                           
                         </label>
                     </div>
                 </div>
                 <div class="formone__field--countryandcity">
                     <div class="formone__field-country">
-                        <p class="formone__field-first--name name-input">
+                        <p class="name-input">
                             Country
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                     <div class="formone__field-city">
-                        <p class="formone__field-first--name name-input">
+                        <p class="name-input">
                             City
                         </p>
-                        <input class="input-shot" type="text">
+                        <input class="input-shot" type="text" required>
                     </div>
                 </div>
                 <div class="formone__field-other1">                    
-                    <input class="input-long formone__field-other" type="text">
+                    <input class="formone__field-other" type="submit">
                 </div>
                 <p class="formone__text formone__field-mail--text">
                     By clicking the 'Sign Up' button, you confirm that you accept our
@@ -88,10 +90,7 @@
                     </p>
                 </div>
             </div>
-            <div class="main__content--form2 formtwo">
-
-            </div>
-        </div>
+        </form>
     </main>
 </body>
 </html>
