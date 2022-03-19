@@ -1,0 +1,312 @@
+//colors
+$black: #000000;
+$white: #ffffff;
+$grey900: #323232;
+$grey700: #565656;
+$grey500: #7b7b7b;
+$grey300: #cccccc;
+$grey100: #f4f4f4;
+$grey050: #e5e5e5;
+$errors: #e10000;
+
+//fonts
+%rhd {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+}
+%lato400 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+}
+
+//site
+body {
+  margin: 0;
+  height: 100%;
+  background-color: $grey050;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+//header_navigation
+.navigation {
+  width: 80vw;
+  max-width: 1440px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  &_slot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+  }
+  &_logo {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.navtabl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  &_link {
+    list-style: none;
+    @extend %lato400;
+    font-size: 13px;
+    line-height: 16px;
+    &-a {
+      text-decoration: none;
+      color: $black;
+    }
+    &-a:active {
+      text-decoration: underline;
+    }
+  }
+}
+.a1 {
+  text-decoration: underline;
+}
+
+//main
+.content {
+  width: 80vw;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: space-around;
+  position: relative;
+  &_name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &-text {
+      @extend %rhd;
+      font-size: 48px;
+      line-height: 64px;
+      letter-spacing: 0.05em;
+    }
+  }
+  &_foto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 110%;
+    position: relative;
+    right: 5%;
+    &_container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    &-picture {
+      width: 100%;
+    }
+  }
+  &_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    &-text1 {
+      @extend %rhd;
+      font-size: 23px;
+      line-height: 166%;
+      display: flex;
+      align-items: flex-start;
+      letter-spacing: 0.1em;
+      width: 100%;
+      color: $black;
+    }
+    &-container {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+}
+.content_text-text2 {
+  @extend %lato400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  width: 100%;
+  color: $grey700;
+}
+.content_bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.bottom_top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-text {
+    @extend %rhd;
+    font-size: 23px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $black;
+  }
+  &-text1 {
+    @extend %lato400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $grey500;
+  }
+}
+.bottomfoto {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-text {
+      @extend %rhd;
+      font-size: 23px;
+      line-height: 166%;
+      letter-spacing: 0.1em;
+      color: $black;
+    }
+    &-text2 {
+      @extend %lato400;
+      font-size: 16px;
+      line-height: 166%;
+      letter-spacing: 0.05em;
+      color: $grey700;
+    }
+  }
+}
+.underfoto {
+  display: flex;
+  flex-direction: column;
+  &_foto {
+    width: 100%;
+  }
+  &_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    &-text {
+      color: $grey500;
+      @extend %lato400;
+      font-size: 12px;
+      line-height: 166%;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+//footer
+.footer {
+  box-sizing: border-box;
+  padding: 127px 0px;
+  background-color: $grey100;
+  width: 100vw;
+  min-height: 435px;
+  display: flex;
+  justify-content: center;
+  &_container {
+    width: 80%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.footer_incontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 100%;
+  &-name {
+    @extend %rhd;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: $black;
+  }
+  &-number,
+  &-email,
+  &-a {
+    @extend %lato400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $black;
+  }
+  &-text {
+    @extend %lato400;
+    font-size: 12px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $black;
+  }
+}
+.footer_incontainer-down {
+  display: flex;
+  height: 100%;
+  justify-content: end;
+}
+//media
+@media (max-width: 700px) {
+  .bottomfoto {
+    flex-direction: column;
+  }
+  .content_text {
+    flex-direction: column;
+  }
+  .underfoto_container {
+    flex-direction: column;
+  }
+  .footer {
+    padding: 50px 0px;
+  }
+  .footer_container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .footer_incontainer {
+    width: 100%;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+  .navtabl {
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navtabl_link {
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 1500px) {
+  .content_foto-picture1 {
+    display: none;
+  }
+  .bottomfoto {
+    flex-wrap: wrap;
+  }
+}
