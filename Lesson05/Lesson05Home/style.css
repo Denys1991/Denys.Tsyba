@@ -20,6 +20,16 @@ header {
   margin-top: 14px;
   height: 49px;
 }
+.header_word_eng {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04px;
+
+  color: #ffffff;
+}
 main {
   padding: 0, 24px, 0, 44px;
   font-size: 36px;
