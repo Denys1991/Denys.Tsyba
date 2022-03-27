@@ -1,0 +1,74 @@
+.content_path-name, .content_path-bigname {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.content_path-text, .content_path-smallname {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.body {
+  background-color: #e5e5e5;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 99vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  max-width: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content_path {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content_path-smallname {
+  height: 100%;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5em;
+  color: #000000;
+  align-content: center;
+  margin-top: 70px;
+}
+.content_path-bigname {
+  height: 100%;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.content_path-name {
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.content_path-text {
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.image {
+  width: 100%;
+  max-width: 1120px;
+  max-height: 470px;
+}
+
+/*# sourceMappingURL=style.css.map */

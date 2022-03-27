@@ -1,0 +1,78 @@
+//colors
+$black: #000000;
+$grey: #565656;
+$litegrey: #e5e5e5;
+//fonts
+%rhd {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+}
+%lato {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+}
+//content
+.body {
+  background-color: $litegrey;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 99vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  max-width: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  &_path {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &-smallname {
+      height: 100%;
+      @extend %lato;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5em;
+      color: $black;
+      align-content: center;
+      margin-top: 70px;
+    }
+    &-bigname {
+      height: 100%;
+      @extend %rhd;
+      font-size: 48px;
+      line-height: 64px;
+      letter-spacing: 0.05em;
+      color: $black;
+    }
+    &-name {
+      @extend%rhd;
+      font-size: 23px;
+      line-height: 166%;
+      letter-spacing: 0.1em;
+      color: $black;
+    }
+    &-text {
+      @extend %lato;
+      font-size: 19px;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      color: $grey;
+    }
+  }
+}
+.image {
+  width: 100%;
+  max-width: 1120px;
+  max-height: 470px;
+}
