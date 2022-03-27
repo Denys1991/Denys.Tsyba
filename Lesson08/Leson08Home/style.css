@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+.main {
+  background-color: #f2f2f2;
+  width: 100%;
+  position: relative;
+  padding: 50px;
+}
+.main__content {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.formone__title {
+  font-family: Inter;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1c1c1c;
+}
+.formone__field--firstandlast {
+  display: flex;
+  justify-content: space-between;
+}
+.name-input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #545454;
+}
+.input-shot {
+  background: #ffffff;
+  outline: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+  border: none;
+  padding: 8px 30px 8px 10px;
+}
+.input-shot:focus {
+  outline-color: #e5f7e7;
+}
+.input-shot:valid {
+  background: #e5f7e7;
+  background-image: url(img/Check1.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 10px;
+  padding: 8px 30px 8px 10px;
+}
+
+.input-long {
+  background: #ffffff;
+  outline: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 38px;
+  width: 100%;
+  border: none;
+  padding: 8px 30px 8px 10px;
+}
+.input-long:focus {
+  outline-color: #e5f7e7;
+}
+.input-long:valid {
+  background: #e5f7e7;
+  background-image: url(img/Check1.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 10px;
+  padding: 8px 30px 8px 10px;
+}
+.formone__field-mail--text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #969696;
+}
+.formone__field--checkbox {
+  display: flex;
+  justify-content: flex-start;
+}
+.radio-button {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.formone__field-checkbox--female {
+  margin-left: 20px;
+}
+.checkbox {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.radio-name {
+  margin-left: 8px;
+}
+.radio-input {
+  display: none;
+}
+.radio-input:checked + .radio-button {
+  height: 20px;
+  width: 20px;
+  border: 6px solid #007bff;
+  border-radius: 50%;
+}
+.formone__field--countryandcity {
+  display: flex;
+  justify-content: space-between;
+}
+.formone__field-other {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 38px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.formone__footer {
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: center;
+}

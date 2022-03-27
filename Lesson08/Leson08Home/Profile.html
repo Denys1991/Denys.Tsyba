@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styleProfile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <form class="main__content">
+            <div class="main__content--form1 formone">
+                <h1 class="formone__title">
+                    Profile
+                </h1>
+                <div class="formone__header">
+                    <div class="header__img">
+                        <input class="header__img--input" type="image" src="img/📷 Image.png" alt="Foto">
+                    </div>
+                    <div class="header__foto">
+                        <label class="header__foto--label">
+                            <div class="header__foto--field"></div>
+                            <input class="header__foto--input" type="file">
+                        </label>
+                        <p class="header__foto--text">
+                            Up to 1 MB (300x300 px)
+                        </p>
+                    </div>
+                    <div class="header__trash">
+                        <button class="header__trash--button"></button>
+                    </div>
+                </div>
+                <div class="formone__field--nameandemail">
+                    <div >
+                        <p class="name-input">
+                            Name
+                        </p>
+                        <input class="input-shot" type="text" required>
+                    </div>
+                    <div class="name-input__marg">
+                        <p class="name-input">
+                            E-mail
+                        </p>
+                        <input class="input-shot" type="text" required>
+                    </div>
+                </div>
+                <div class="formone__field--countryandcity">
+                    <div>
+                        <p class="name-input">
+                            Country
+                        </p>
+                        <input class="input-shot" type="text" required>
+                    </div>
+                    <div class="name-input__marg">
+                        <p class="name-input">
+                            City
+                        </p>
+                        <input class="input-shot" type="text" required>
+                    </div>
+                </div>
+                <div class="formone__field--zipandphone">
+                    <div>
+                        <p class="name-input">
+                            Zip Code
+                        </p>
+                        <input class="input-shot" type="text" required>
+                    </div>
+                    <div class="name-input__marg">
+                        <p class="name-input">
+                            Phone Number
+                        </p>
+                        <input class="input-shot" type="text" required>
+                    </div>
+                </div>
+                <div class="formone__last">
+                    <input class="formone__last--button" type="submit">
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
